@@ -36,7 +36,7 @@ export default function About() {
               transition={{ duration: 0.3 }}
             >
               <Image
-                src="@/public/me.jpg"
+                src="/me.jpg"
                 alt="About Nestro Builder"
                 width={600}
                 height={600}
