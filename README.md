@@ -1,16 +1,44 @@
-# Nestro Builder website
+# Nestro Builder Website - Custom Version
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A customized version of the Nestro Builder website with personal image integration.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/abdullas-projects-eced2102/v0-nestro-builder-website)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/2wzauhN9c2h)
+[![Built with Next.js](https://img.shields.io/badge/Built%20with-Next.js-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![Uses TypeScript](https://img.shields.io/badge/Uses-TypeScript-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 
-## Overview
+## 🔧 Setup Instructions
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Abdulla090/nestrobuilder-custom.git
+   cd nestrobuilder-custom
+   ```
 
-## Deployment
+2. **Install dependencies:**
+   ```bash
+   pnpm install
+   ```
+   
+   *Note: This project uses `pnpm` as the package manager. If you don't have it installed, run `npm install -g pnpm` first.*
+
+3. **Add your personal image:**
+   - Place your image file as `me.jpg` in the `public/` folder
+   - The image will automatically appear in the About section
+
+4. **Run the development server:**
+   ```bash
+   pnpm dev
+   ```
+
+5. **Open your browser:**
+   Navigate to `http://localhost:3000` to see your website.
+
+## ✨ Customizations Made
+
+- **Personal Image Integration**: Replaced the placeholder image in the About section with a custom image (`/me.jpg`)
+- **Dependencies Installed**: All required packages have been installed and configured
+- **Ready to Run**: Project is fully set up and ready for development
+
+## 🚀 Deployment
 
 Your project is live at:
 
